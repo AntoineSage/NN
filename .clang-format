@@ -1,0 +1,14 @@
+---
+AlignOperands: 'true'
+AlignTrailingComments: 'true'
+AllowShortIfStatementsOnASingleLine: 'true'
+AllowShortLoopsOnASingleLine: 'true'
+Cpp11BracedListStyle: 'true'
+Language: Cpp
+SortIncludes: 'true'
+SpaceBeforeAssignmentOperators: 'true'
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: 'false'
+Standard: Cpp11
+
+...
