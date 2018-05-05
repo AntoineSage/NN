@@ -1,4 +1,3 @@
-#include "Matrix.h"
 #include "NN.h"
 #include <initializer_list>
 #include <iostream>
@@ -18,13 +17,10 @@
 int main() {
   srand(time(NULL));
 
-  Matrix m(3, 3, true);
-  Matrix n(3, 3, true);
-  Matrix l = m * n;
-  m.afficher();
-  n.afficher();
-
-  l.afficher();
-
+  NN test(1, 1, 1);
+  test.afficher();
+  std::vector< double > _Input(1.0);
+  test.feedForward(_Input);
+  test.afficher();
   return 0;
 }
