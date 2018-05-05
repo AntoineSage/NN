@@ -9,6 +9,7 @@ SortIncludes: 'true'
 SpaceBeforeAssignmentOperators: 'true'
 SpaceBeforeParens: ControlStatements
 SpaceInEmptyParentheses: 'false'
+SpacesInAngles: 'true'
 Standard: Cpp11
 
 ...

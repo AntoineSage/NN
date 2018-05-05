@@ -22,7 +22,11 @@
         "string_view": "cpp",
         "system_error": "cpp",
         "type_traits": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "utility": "cpp",
+        "vector": "cpp",
+        "cstdarg": "cpp",
+        "cassert": "cpp"
     },
     "C_Cpp.dimInactiveRegions": false,
     "C_Cpp.errorSquiggles": "Enabled"

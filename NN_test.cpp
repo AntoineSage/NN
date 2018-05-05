@@ -1,5 +1,12 @@
+#include "Matrix.h"
+#include "NN.h"
+#include <initializer_list>
 #include <iostream>
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <typeinfo>
+#include <vector>
 
 // "C:/msys64/mingw64/lib/*",
 // "C:/msys64/mingw64/include",
@@ -9,8 +16,15 @@
 // "C:/msys64/mingw64/x86_64-w64-mingw32/include"
 
 int main() {
-  int count = 3 + 4;
-  printf("Test : %d\n", count);
-  std::cout << "TOTO" << std::endl;
+  srand(time(NULL));
+
+  Matrix m(3, 3, true);
+  Matrix n(3, 3, true);
+  Matrix l = m * n;
+  m.afficher();
+  n.afficher();
+
+  l.afficher();
+
   return 0;
 }

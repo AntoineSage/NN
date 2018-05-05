@@ -1,7 +1,7 @@
 CC = clang++
-CFLAGS = -Wall
+CFLAGS = -Wall -std=gnu++11
 EXEC_NAME = NN_test.exe
-OBJ_FILES = NN_test.o
+OBJ_FILES = NN_test.o NN.o Matrix.o
 
 all : $(EXEC_NAME)
 
