@@ -23,7 +23,7 @@ int main(int argc, char **argv) {
   // std::vector< double > _Input(1.0);
   // test.feedForward(_Input);
   // test.afficher();
-  
+
   SDL_Init(SDL_INIT_EVERYTHING);
   SDL_Window *window =
       SDL_CreateWindow("TEST", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
@@ -40,3 +40,12 @@ int main(int argc, char **argv) {
 
   return 0;
 }
+
+// FAIRE EN SORTE QUE CA MARCHE SOUS LINUX :
+/*
+Debugger version Linux
+Build task version Linux
+.clang-format
+Paramétrage de visual studio
+Paramétrage de git
+*/
