@@ -30,5 +30,16 @@
     },
     "C_Cpp.dimInactiveRegions": false,
     "C_Cpp.errorSquiggles": "Enabled",
-    "editor.fontSize": 17
+    "editor.fontSize": 17,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "*.o": true,
+        "*.dll": true,
+        "*.clang-format": true,
+        "*.exe": true
+    }
 }

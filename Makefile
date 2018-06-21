@@ -3,13 +3,13 @@ ifeq ($(OS),Windows_NT)
 	CFLAGS = -Wall -std=gnu++11
 	EXEC_FLAG = -lmingw32 -lSDL2main -lSDL2
 	EXEC_NAME = NN_test.exe
-	OBJ_FILES = NN_test.o NN.o Matrix.o
+	OBJ_FILES = NN_test.o NN.o Matrix.o Button.o
 else
 	CC = g++
 	CFLAGS = -Wall -std=gnu++11
 	EXEC_FLAG = `pkg-config --libs --cflags sdl2`
 	EXEC_NAME = NN_test.exe
-	OBJ_FILES = NN_test.o NN.o Matrix.o
+	OBJ_FILES = NN_test.o NN.o Matrix.o Button.o
 endif
 
 all : $(EXEC_NAME)
